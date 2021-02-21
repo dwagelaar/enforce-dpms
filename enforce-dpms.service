@@ -1,0 +1,14 @@
+[Unit]
+Description=Start DPMS enforcement
+After=display-manager.service
+
+[Service]
+Type=simple
+PIDFile=/run/enforce-dpms.pid
+ExecStart=/usr/local/sbin/enforce-dpms.sh
+
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=graphical.target
