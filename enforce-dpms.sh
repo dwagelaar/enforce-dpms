@@ -3,7 +3,7 @@ set -ueo pipefail
 
 function read_dpms_state()
 {
-	POWER_SAVE_MODE=$(busctl --user get-property org.gnome.Mutter.DisplayConfig /org/gnome/Mutter/DisplayConfig org.gnome.Mutter.DisplayConfig PowerSaveMode)
+	POWER_SAVE_MODE=$(busctl --user get-property org.gnome.Mutter.DisplayConfig /org/gnome/Mutter/DisplayConfig org.gnome.Mutter.DisplayConfig PowerSaveMode || true)
 }
 
 echo "Started monitoring DPMS sleep mode"

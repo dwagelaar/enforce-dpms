@@ -1,6 +1,5 @@
 #!/bin/sh
 set -ueo pipefail
-set -x
 
 DIRNAME=$(dirname $0)
 
