@@ -10,6 +10,7 @@ It does so by monitoring when the D-Bus property for DPMS is changed from 0 ("On
 
 ```
 sudo sh install.sh
+systemctl --user daemon-reload
 ```
 
 ## Enable service
