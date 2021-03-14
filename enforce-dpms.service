@@ -7,7 +7,7 @@ Type=simple
 PIDFile=/run/enforce-dpms.pid
 ExecStart=/usr/local/sbin/enforce-dpms.sh
 
-Restart=on-failure
+Restart=always
 RestartSec=5s
 
 [Install]
