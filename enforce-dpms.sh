@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -ueo pipefail
 
 DRM_DEVICE_PATH=/sys/class/graphics/fb0/device/drm/card0

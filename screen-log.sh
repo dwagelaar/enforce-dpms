@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -ueo pipefail
 
 LOGFILE=${HOME}/screen-log-$(date +%Y%m%d-%H%M%S).csv
