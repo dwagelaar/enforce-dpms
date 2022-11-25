@@ -1,6 +1,6 @@
 # enforce-dpms
 
-The `enforce-dpms` systemd service works around a long-standing bug in the `amdgpu` Linux driver that breaks DPMS monitor sleep mode:
+The `enforce-dpms` systemd service is GNOME/Mutter solution for working around a long-standing bug in the `amdgpu` Linux driver that breaks DPMS monitor sleep mode:
 
   - https://gitlab.freedesktop.org/drm/amd/-/issues/662
   - https://gitlab.gnome.org/GNOME/mutter/-/issues/976 (related)
